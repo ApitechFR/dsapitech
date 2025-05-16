@@ -3,7 +3,7 @@
   "version": "1.13.2",
   "description": "Système de Design d'Apitech - DSApitech",
   "repository": "git@github.com:ApitechFR/dsapitech.git",
-  "author": "Apitech <apitech@apitech.fr>",
+  "author": "Apitech <dev@apitech.fr>",
   "license": "SEE LICENSE IN LICENSE.md",
   "config": {
     "prefix": "fr",
