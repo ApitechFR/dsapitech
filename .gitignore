@@ -1,0 +1,13 @@
+node_modules/
+public/
+.config/
+.vscode/
+/dist/
+/example/
+/standalone/
+/storybook/
+
+dsapitech-sb/*storybook.log
+dsapitech-sb/storybook-static/
+
+.DS_Store
