@@ -1,14 +1,14 @@
 /** @type { import('@storybook/html').Preview } */
 import './preview.css';
 import jsBeautifier from 'js-beautify';
-import dsfrTheme, { getPreferredColorScheme } from './dsapitech-theme'
+import dsapitechTheme, { getPreferredColorScheme } from './dsapitech-theme'
 import { DecoratorHelpers } from '@storybook/addon-themes';
 import { UrlStore } from '@storybook/preview-api';
 
 const { initializeThemeState, pluckThemeFromContext, useThemeParameters } = DecoratorHelpers;
 
 const defaultTheme = 'light';
-const themes = Object.keys(dsfrTheme);
+const themes = Object.keys(dsapitechTheme);
 initializeThemeState(themes, defaultTheme);
 
 const themeDecorator = (Story, context) => {

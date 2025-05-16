@@ -5,7 +5,7 @@ import { ButtonEmission } from './button/button-emission';
 
 class ComponentActionee extends Actionee {
   constructor (priority = -1) {
-    super(priority, 'dsfr_component');
+    super(priority, 'dsapitech_component');
   }
 
   static get instanceClassName () {
