@@ -7,7 +7,7 @@ public/
 /standalone/
 /storybook/
 
-dsapitech-sb/*storybook.log
-dsapitech-sb/storybook-static/
+dsfr-sb/*storybook.log
+dsfr-sb/storybook-static/
 
 .DS_Store

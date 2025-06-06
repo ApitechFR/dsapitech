@@ -1,9 +1,9 @@
-# Contribuer au Système de Design d'Apitech <!-- omit in toc -->
+# Contribuer au Système de Design de l'État <!-- omit in toc -->
 
-Avant de commencer à utiliser le Système de Design d'Apitech (ci-après, **DSApitech**), veillez à prendre connaissance
+Avant de commencer à utiliser le Système de Design de l'État (ci-après, **DSFR**), veillez à prendre connaissance
 des [conditions générales d'utilisation](doc/legal/cgu.md).
 
-Si vous souhaitez contribuer au DSApitech, veuillez prendre connaissance des documents relatifs à la [cession des droits d'auteur](doc/legal/cession.md) et du [certificat garantissant l'originalité](doc/legal/cgod.md) de votre contribution.
+Si vous souhaitez contribuer au DSFR, veuillez prendre connaissance des documents relatifs à la [cession des droits d'auteur](doc/legal/cession.md) et du [certificat garantissant l'originalité](doc/legal/cgod.md) de votre contribution.
 
 - [Installation](#installation)
   - [Installation locale](#installation-locale)
@@ -28,15 +28,15 @@ Si vous souhaitez contribuer au DSApitech, veuillez prendre connaissance des doc
 
 ## Installation
 ### Installation locale
-Le **DSApitech** est basé sur une architecture [NodeJS](https://nodejs.org/), il est donc nécessaire d’installer une version récente de NodeJS. Dans le terminal nous utiliserons les commandes de **npm** ou **yarn** (v1.22.19) pour lancer les scripts.
+Le **DSFR** est basé sur une architecture [NodeJS](https://nodejs.org/), il est donc nécessaire d’installer une version récente de NodeJS. Dans le terminal nous utiliserons les commandes de **npm** ou **yarn** (v1.22.19) pour lancer les scripts.
 
-Le dépôt est disponible à cette adresse : https://github.com/ApitechFR/dsapitech
+Le dépôt est disponible à cette adresse : https://github.com/GouvernementFR/dsfr
 
-Afin de pouvoir commencer à développer et contribuer au DSApitech, assurez-vous tout d'abord de faire un fork du projet depuis votre compte GitHub (https://help.github.com/articles/fork-a-repo/)
+Afin de pouvoir commencer à développer et contribuer au DSFR, assurez-vous tout d'abord de faire un fork du projet depuis votre compte GitHub (https://help.github.com/articles/fork-a-repo/)
 
 Il suffit ensuite de cloner votre fork, en téléchargeant les sources depuis le bouton “clone” de github, ou via un terminal avec commande :
 ```shell
-git clone https://github.com/VOTRE_NOM_UTILISATEUR_GITHUB/dsapitech
+git clone https://github.com/VOTRE_NOM_UTILISATEUR_GITHUB/dsfr
 ```
 
 La branche **dev** est la principale branche de travail - la branche main correspondant aux versions de productions livrées aux utilisateurs. Il est donc nécessaire de créer de nouvelles branches de travail pour l'ajout et la modification de packages depuis la branche **dev**. (Voir la section [Utilisation > Git](#git), pour le fonctionnement détaillé).
@@ -75,7 +75,7 @@ Un serveur local sera alors lancé sur l'adresse localhost:8080. Accéder à htt
 
 ### Packages
 
-Le DSApitech est un monorepo proposant différents composants, listés dans le dossier `src/dsapitech/component`.
+Le DSFR est un monorepo proposant différents composants, listés dans le dossier `src/dsfr/component`.
 
 Un composant doit avoir une arborescence de type :
 
@@ -95,7 +95,7 @@ Le dossier **example** comprend les fichiers ejs d’exemple (ils utilisent les 
 Le dossier **style** contient les fichiers .scss permettant la génération du css du composant.
 Le dossier **template** contient les templates des composants (la mise en forme html).
 
-Certains de ces packages sont dépendants les uns des autres. Chacun de ces packages possède donc un fichier **package.yml**, listant l'ensemble de ses dépendances à d'autres composants du DSApitech.
+Certains de ces packages sont dépendants les uns des autres. Chacun de ces packages possède donc un fichier **package.yml**, listant l'ensemble de ses dépendances à d'autres composants du DSFR.
 
 Celui-ci gère les imports et le wrapper des examples html générés ainsi que l'implémentation des readme.md. Il est structuré de cette façon :
 
@@ -118,10 +118,10 @@ example: liste des id des packages nécessaire à la page d'exemple. les sous ob
 ```
 ## Utilisation
 ### Sass
-Le DSApitech utilise Sass pour la génération automatique des styles liés à chaque composant. Chacun d'entre eux possède une structure identique à ce niveau, par exemple le composant `button` :
+Le DSFR utilise Sass pour la génération automatique des styles liés à chaque composant. Chacun d'entre eux possède une structure identique à ce niveau, par exemple le composant `button` :
 
 ```
-/src/dsapitech/component/button
+/src/dsfr/component/button
 └── style
     ├── _legacy.scss
     ├── _module.scss
@@ -156,7 +156,7 @@ Afin de limiter la longueur des fichiers de code (maximum une centaine de lignes
 Certains packages font utilisation de JavaScript, afin d'apporter une couche interactive à ceux-ci. C'est le cas par exemple du package navigation, où le JavaScript est utilisé pour déplier les sous-menus. La couche JavaScript est structurée comme ceci, par exemple pour le composant `navigation` :
 
 ```
-/src/dsapitech/component/navigation
+/src/dsfr/component/navigation
 └── script
     └── navigation/
         ├── navigation-item.js
@@ -168,7 +168,7 @@ Certains packages font utilisation de JavaScript, afin d'apporter une couche int
 ```
 
 
-`api.js` : importe depuis core l'objet global qui contient les classes, variables et instances du DSApitech (Fichier identique dans chaque package avec du js). C'est l'objet qui sera accessible à l'execution dans `window.dsapitech`
+`api.js` : importe depuis core l'objet global qui contient les classes, variables et instances du DSFR (Fichier identique dans chaque package avec du js). C'est l'objet qui sera accessible à l'execution dans `window.dsfr`
 
 `index.js` : Ajoute à l'objet global `api` des définitions de classes et variables spécifiques au composant.
 
@@ -182,11 +182,11 @@ Lors du `yarn release`, le javascript est compilé en version "module" (es6) et 
 En mode développement, `yarn build` permet de générer uniquement la version .module.js (es6 non minifié)
 
 ### EJS
-Nous utilisons au sein du DSApitech, le langage de template EJS ([documentation officielle](https://ejs.co/#docs)), permettant la génération des pages d'exemples au format HTML, ainsi que les snippets de code de manière automatisée.
+Nous utilisons au sein du DSFR, le langage de template EJS ([documentation officielle](https://ejs.co/#docs)), permettant la génération des pages d'exemples au format HTML, ainsi que les snippets de code de manière automatisée.
 
 Les fichiers ejs sont séparés dans 2 dossiers, par exemple pour le package `callout` :
 ```
-/src/dsapitech/component/callouts
+/src/dsfr/component/callouts
 └── example
     ├── index.ejs
     └── samples/
@@ -272,12 +272,12 @@ git commit --signoff (ou git commit -s)
 
 Important
 
-**Avant de proposer une pull request**, assurez vous que vous respectez la [garantie d’origine de vos développements](https://github.com/GouvernementFR/dsapitech/blob/main/doc/legal/cgod.md), et pour les personnes **n'étant pas des agents de l’État,** que vous avez pris connaissance des documents relatifs à la [cession des droits d’auteur](doc/legal/cession.md), **document à nous transmettre signé**.
+**Avant de proposer une pull request**, assurez vous que vous respectez la [garantie d’origine de vos développements](https://github.com/GouvernementFR/dsfr/blob/main/doc/legal/cgod.md), et pour les personnes **n'étant pas des agents de l’État,** que vous avez pris connaissance des documents relatifs à la [cession des droits d’auteur](doc/legal/cession.md), **document à nous transmettre signé**.
 
 **Toute ‘pull request’ ne respectant pas ces pré-requis sera systématiquement rejetée.**
 
-Pour contribuer sur le git DSApitech, il convient d’utiliser une “pull-request” (PR).
-Lorsque vous estimez que votre développement est terminé et qu'il peut-être révisé par l'équipe DSApitech, vos devez créer une pull request depuis github (https://github.com/GouvernementFR/dsapitech/pulls ) ou github cli (gh).
+Pour contribuer sur le git DSFR, il convient d’utiliser une “pull-request” (PR).
+Lorsque vous estimez que votre développement est terminé et qu'il peut-être révisé par l'équipe DSFR, vos devez créer une pull request depuis github (https://github.com/GouvernementFR/dsfr/pulls ) ou github cli (gh).
 La pull-request suit les même règles de nommage décrites précédemment (branches, commits), à savoir le [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 Une description détaillant le problème à résoudre, la façon dont la contribution résout le problème et toute autre information utile à la revue de code est fortement conseillée !
 
@@ -285,9 +285,9 @@ La pull request doit être faite depuis la branche de votre fork vers la branche
 
 
 ## Compilation
-La compilation des sources permet de créer un dossier `dist`, `exemple` et `.config` à la racine du projet. Le dossier `dist` contient les fichiers CSS et JS compilés, ainsi que les favicons et l'ensemble des fonts et icônes utilisées au sein du DSApitech.
+La compilation des sources permet de créer un dossier `dist`, `exemple` et `.config` à la racine du projet. Le dossier `dist` contient les fichiers CSS et JS compilés, ainsi que les favicons et l'ensemble des fonts et icônes utilisées au sein du DSFR.
 
-Le dossier `.config` contient les variables générales JS et SCSS ainsi que la configuration nécessaire au build. Plus particulièrement, le fichier `config.json` répertorie toute l’arborescence de `src/dsapitech`, les dépendances et leur ordre qu’il récupère depuis les fichiers `package.yml` de chaque package et `folder.yml` pour les dossier (dsapitech, component, page, pattern).
+Le dossier `.config` contient les variables générales JS et SCSS ainsi que la configuration nécessaire au build. Plus particulièrement, le fichier `config.json` répertorie toute l’arborescence de `src/dsfr`, les dépendances et leur ordre qu’il récupère depuis les fichiers `package.yml` de chaque package et `folder.yml` pour les dossier (dsfr, component, page, pattern).
 Les fichiers `icon.scss` et `icon.json` définissent les variables d'icônes pour la génération des classes utilitaires.
 
 Le dossier `example` contient les exemples HTML générés depuis les samples ejs. L'ordre des imports css et js est défini par l'ordre des dépendances dans le `package.yml`.
@@ -310,8 +310,8 @@ Pour voir les différents paramètres disponibles : `yarn build --help`
 ## Autres commandes
 
 ### Icônes
-Les icônes, placées dans le répertoire `src/dsapitech/core/icon/`, sont exportées à la compilation dans dist/icons et des classes utilitaires CSS sont créées dans dist/utility/icons.
-Il est possible d'ajouter des icônes, en ajoutant des fichiers `.svg` dans `src/dsapitech/core/icon`, et en relançant le build :
+Les icônes, placées dans le répertoire `src/dsfr/core/icon/`, sont exportées à la compilation dans dist/icons et des classes utilitaires CSS sont créées dans dist/utility/icons.
+Il est possible d'ajouter des icônes, en ajoutant des fichiers `.svg` dans `src/dsfr/core/icon`, et en relançant le build :
 
 ```shell
 yarn build --clean
@@ -321,11 +321,11 @@ NB : Un fichier icon.scss (et icon.json) est généré dans .config à la compil
 Il définit pour chaque icône :
 - son nom, défini par le nom de l’icone
 - sa catégorie, défini par son dossier
-- sa famille (dsapitech ou remix), par défaut remix, dsapitech si le nom de l’icone est préfixé par “fr--”
+- sa famille (dsfr ou remix), par défaut remix, dsfr si le nom de l’icone est préfixé par “fr--”
 - son chemin d’accès
 
 ### Tests
-Afin de s'assurer de la qualité du code, nous utilisons des tests automatisés qu'il est nécessaire d'exécuter régulièrement pour vérifier que le code du DSApitech reste valide et cohérent, notamment avant d'effectuer des pull requests sur le repository de production, et avant publication sur NPM.
+Afin de s'assurer de la qualité du code, nous utilisons des tests automatisés qu'il est nécessaire d'exécuter régulièrement pour vérifier que le code du DSFR reste valide et cohérent, notamment avant d'effectuer des pull requests sur le repository de production, et avant publication sur NPM.
 
 Ces tests sont exécutés lors de la commande : `yarn release`
 Ou plus spécifiquement avec :
@@ -348,7 +348,7 @@ yarn build --test
 ```
 
 #### tests Accessibilité
-Pour tester de manière automatisée l'accessibilité des composants du DSApitech, nous utilisons [Pa11y](https://pa11y.org/) sur les pages de tests des différents packages.
+Pour tester de manière automatisée l'accessibilité des composants du DSFR, nous utilisons [Pa11y](https://pa11y.org/) sur les pages de tests des différents packages.
 Ces tests sont effectués lors du yarn release, ou plus spécifiquement avec :
 
 ```shell
