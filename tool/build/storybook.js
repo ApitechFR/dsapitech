@@ -2,7 +2,7 @@ const { spawn } = require('child_process');
 
 const buildStorybook = async () => {
   return new Promise((resolve, reject) => {
-    const child = spawn('sh', ['-c', 'cd dsapitech-sb && yarn install && yarn build-storybook'], { stdio: 'inherit' });
+    const child = spawn('sh', ['-c', 'cd dsfr-sb && yarn install && yarn build-storybook'], { stdio: 'inherit' });
 
     child.on('exit', (code) => {
       if (code === 0) {

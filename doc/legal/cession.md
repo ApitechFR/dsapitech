@@ -3,7 +3,7 @@
 
 Le présent acte de cession de droits d’auteur (l’ « Acte de cession ») est conclu par le contributeur (le « Contributeur ») au profit de l’État. L’État et le Contributeur étant ci-après désignés individuellement la « **Partie** » et collectivement les « **Parties** ».
 
-Le Contributeur a été amené à réaliser un composant informatique ou un composant design, fourni à titre de Contribution au Système de Design d'Apitech (la « Plateforme ») et validé par l’équipe qui en assure la gestion. Le Contributeur accepte d’en céder les droits de propriété intellectuelle y afférents à l’État comme suit : 
+Le Contributeur a été amené à réaliser un composant informatique ou un composant design, fourni à titre de Contribution au Système de Design de l’État (la « Plateforme ») et validé par l’équipe qui en assure la gestion. Le Contributeur accepte d’en céder les droits de propriété intellectuelle y afférents à l’État comme suit : 
 
 
 

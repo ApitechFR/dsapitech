@@ -8,7 +8,7 @@ En contribuant à ce projet :
  
 (c) je garantis la jouissance paisible de ma contribution, dans le cadre du Système de Design de l’Etat ; 
  
-(d) Je reconnais et j'accepte que ma contribution fasse l’objet d’un usage public dans le cadre du Système de Design de l’Etat et que les droits d’exploitation y afférents soient selon le contexte (i) cédés à l’État ou (ii) soumis aux dispositions de la licence open source en vigueur pour les Composants de la Plateforme du Système de Design d'Apitech. 
+(d) Je reconnais et j'accepte que ma contribution fasse l’objet d’un usage public dans le cadre du Système de Design de l’Etat et que les droits d’exploitation y afférents soient selon le contexte (i) cédés à l’État ou (ii) soumis aux dispositions de la licence open source en vigueur pour les Composants de la Plateforme du Système de Design de l’État. 
  
 
 Signature : 
