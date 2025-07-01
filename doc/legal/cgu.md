@@ -1,6 +1,6 @@
 ## CONDITIONS GÉNÉRALES D’UTILISATION DU SYSTÈME DE DESIGN DE L’ÉTAT
 
-Le Service d’Information du Gouvernement (« SIG ») vous remercie de bien vouloir lire attentivement l’intégralité des présentes Conditions Générales d’Utilisation (« CGU ») avant d’utiliser la plateforme du Système de Design d'Apitech (« Plateforme »). Tout accès, toute utilisation et/ou toute Contribution à la Plateforme est subordonné au respect des présentes CGU. Tout Utilisateur de la Plateforme reconnaît souscrire sans réserve aux présentes CGU et s’engage à les respecter.
+Le Service d’Information du Gouvernement (« SIG ») vous remercie de bien vouloir lire attentivement l’intégralité des présentes Conditions Générales d’Utilisation (« CGU ») avant d’utiliser la plateforme du Système de Design de l'État (« Plateforme »). Tout accès, toute utilisation et/ou toute Contribution à la Plateforme est subordonné au respect des présentes CGU. Tout Utilisateur de la Plateforme reconnaît souscrire sans réserve aux présentes CGU et s’engage à les respecter.
 
 
 
@@ -9,7 +9,7 @@ Le Service d’Information du Gouvernement (« SIG ») vous remercie de bien vou
 Le SIG est le pilote de la transformation numérique de la communication de l’État . À ce titre, le SIG a pour mission de placer toutes les actions du Gouvernement sous la marque de l’État afin de garantir l’homogénéité et la reconnaissance de l’ensemble des initiatives ministérielles ou interministérielles.
 Dans ce cadre, le SIG a mis en place la nouvelle stratégie de la marque de l’État pour rendre l’action de l’État plus concrète, lisible et visible grâce à un signe commun pour les citoyens.
 
-Dans la continuité de la mise en œuvre de la marque de l’État, le SIG a structuré dans le cadre d’une plateforme, le Système de Design d'Apitech visant à mettre à disposition des librairies de Ressources permettant notamment de standardiser et d’harmoniser l’expérience numérique de l’État et des citoyens grâce à une interface commune des sites Internet et applications de l’État. Le Système de Design d'Apitech permet ainsi de générer des économies, en rationalisant les développements numériques, de garantir la qualité et l’efficacité de l’expérience utilisateur, la cohérence et une meilleure reconnaissance des services de l’État.
+Dans la continuité de la mise en œuvre de la marque de l’État, le SIG a structuré dans le cadre d’une plateforme, le Système de Design de l'État visant à mettre à disposition des librairies de Ressources permettant notamment de standardiser et d’harmoniser l’expérience numérique de l’État et des citoyens grâce à une interface commune des sites Internet et applications de l’État. Le Système de Design de l’État permet ainsi de générer des économies, en rationalisant les développements numériques, de garantir la qualité et l’efficacité de l’expérience utilisateur, la cohérence et une meilleure reconnaissance des services de l’État.
 
 Les présentes Conditions Générales définissent les conditions selon lesquelles l’Utilisateur de l’État ou les Autres Utilisateurs peuvent naviguer sur la Plateforme accessible sur l’URL https://www.systeme-de-design.gouv.fr, accéder et exploiter les Ressources et Contribuer à leur amélioration ou leur enrichissement.
 
@@ -19,13 +19,13 @@ Les présentes Conditions Générales définissent les conditions selon lesquell
 
 Les termes débutant avec une majuscule dans les présentes CGU, qu’ils soient utilisés au singulier ou au pluriel auront la signification qui leur est attribuée ci-après :
 
-* **Communauté** : désigne la communauté en ligne des Utilisateurs et des membres de l’équipe du Système de Design d'Apitech.
+* **Communauté** : désigne la communauté en ligne des Utilisateurs et des membres de l’équipe du Système de Design de l'État.
 
 * **Composants** : désigne les librairies d’éléments destinés aux designers et aux développeurs intégrant des Éléments Graphiques (Fondamentaux Techniques et les Éléments d’Identité), des Éléments d’Interface, des Paquets de codes sources.
 
 * **Contribution** : désigne tout élément fourni par l’Utilisateur dans le cadre de l’utilisation de la Plateforme, qu’il s’agisse de la modification d’un Composant ou du développement d’un nouveau Composant.
 
-* **Système de Design d'Apitech (DSApitech)** : désigne l’ensemble de Composants réutilisables, guidé par des standards et une gouvernance, devant être assemblés pour construire les sites internet et applications mobiles des Entités Autorisées et objet des présentes Conditions Générales.
+* **Système de Design de l'État (DSFR)** : désigne l’ensemble de Composants réutilisables, guidé par des standards et une gouvernance, devant être assemblés pour construire les sites internet et applications mobiles des Entités Autorisées et objet des présentes Conditions Générales.
 
 * **Documentation** : désigne les principes d’utilisation des Composants auxquels les Utilisateurs doivent se conformer.
 
@@ -33,7 +33,7 @@ Les termes débutant avec une majuscule dans les présentes CGU, qu’ils soient
 
 * **Eléments d’Interface** : désigne les éléments des Composants liés à l’interface (boutons, liens, champs de saisie, case à cocher, cards, …).
 
-* **Entités Autorisées** : désigne les services de l’État devant utiliser le DSApitech, à savoir les administrations centrales, leurs directions, les délégations interministérielles, les préfectures, les ambassades, l’ensemble des services déconcentrés ainsi que les Opérateurs de l’État.
+* **Entités Autorisées** : désigne les services de l’État devant utiliser le DSFR, à savoir les administrations centrales, leurs directions, les délégations interministérielles, les préfectures, les ambassades, l’ensemble des services déconcentrés ainsi que les Opérateurs de l’État.
 
 * **Eléments d’Identité** : désigne les éléments des Composants qui identifient les Entités Autorisées (dénomination, logos, autres Éléments graphiques comme les couleurs, typographies, iconographies, etc.) définis dans la « Marque État ».
 
@@ -45,7 +45,7 @@ Les termes débutant avec une majuscule dans les présentes CGU, qu’ils soient
 
 * **Paquets de codes sources** : désigne les fichiers de codes sources accessibles sur la plateforme de Git (Github).
 
-* **Plateforme** : désigne le site Internet du Système de Design d'Apitech, permettant aux Utilisateurs de naviguer, utiliser et contribuer au Système de Design d'Apitech.
+* **Plateforme** : désigne le site Internet du Système de Design de l'État, permettant aux Utilisateurs de naviguer, utiliser et contribuer au Système de Design de l'État.
 
 * **Ressources** : désigne les Composants, la Documentation, le support et les outils mis à disposition de l’Utilisateur sur ou au travers de la Plateforme.
 
@@ -65,9 +65,9 @@ Les termes débutant avec une majuscule dans les présentes CGU, qu’ils soient
 
 La navigation sur la Plateforme est libre et gratuite.
 
-L’espace de la Communauté ouvert sur la Plateforme permet aux Utilisateurs d’obtenir de l’aide et du support sur l’utilisation de la Plateforme, d’échanger avec la Communauté et d’être tenu informé sur l’espace « Système de Design d'Apitech » sur l’outil tiers Slack.
+L’espace de la Communauté ouvert sur la Plateforme permet aux Utilisateurs d’obtenir de l’aide et du support sur l’utilisation de la Plateforme, d’échanger avec la Communauté et d’être tenu informé sur l’espace « Système de Design de l’État » sur l’outil tiers Slack.
 
-Les Utilisateurs peuvent (i) rechercher et consulter le contenu fourni par l’équipe du Système de Design d'Apitech, (ii) solliciter l’équipe du DSApitech pour suggérer des modifications ou améliorations, et (iii) interagir et s’entraider avec les autres membres de la Communauté.
+Les Utilisateurs peuvent (i) rechercher et consulter le contenu fourni par l’équipe du Système de Design de l’État, (ii) solliciter l’équipe du DSFR pour suggérer des modifications ou améliorations, et (iii) interagir et s’entraider avec les autres membres de la Communauté.
 
 Tout Utilisateur diffusant du contenu à la Communauté, sous quelque forme que ce soit, s’engage à respecter les règles de participations spécifiques détaillées sur la Plateforme, les présentes CGU, les lois et les règlements en vigueur.
 
@@ -77,7 +77,7 @@ Les Utilisateurs publiant un commentaire dans une discussion cèdent leurs droit
 
 Le SIG se réserve le droit de supprimer, sans autorisation et sans préavis, tout contenu et/ou publication qui ne serait pas conforme aux présentes CGU et/ou à la législation en vigueur.
 
-Si l’Utilisateur détecte une anomalie qui affecte le bon fonctionnement de la Plateforme ou le bon fonctionnement d’un Composant, il pourra en faire part au SIG en adressant une demande de correction sur l’outil tiers Jira Service Desk (https://apitech.atlassian.net/servicedesk/customer/portals).
+Si l’Utilisateur détecte une anomalie qui affecte le bon fonctionnement de la Plateforme ou le bon fonctionnement d’un Composant, il pourra en faire part au SIG en adressant une demande de correction sur l’outil tiers Jira Service Desk (https://gouvfr.atlassian.net/servicedesk/customer/portals).
 
 Le SIG confirmera la prise en compte de la demande par email dans les meilleurs délais et en fonction du niveau de criticité, la demande fera l’objet d’une réponse, d’une correction ou d’une évolution dans les meilleurs délais.
 
@@ -85,17 +85,17 @@ Le SIG confirmera la prise en compte de la demande par email dans les meilleurs 
 
 Toutes les Ressources sont la propriété de l’État.
 
-Toutes les Ressources sont mises à disposition des Utilisateurs dans les conditions suivantes étant précisé que la Documentation est accessible aux Utilisateurs mais ses modifications sont strictement réservées à l’équipe du DSApitech :
+Toutes les Ressources sont mises à disposition des Utilisateurs dans les conditions suivantes étant précisé que la Documentation est accessible aux Utilisateurs mais ses modifications sont strictement réservées à l’équipe du DSFR :
 
 ##### I° Conditions d’utilisation des Ressources par les seuls Utilisateurs de l’État
 
-Pendant toute la durée pendant laquelle les Ressources sont accessibles sur le DSApitech, les Utilisateurs de l’État peuvent les utiliser afin de concevoir et développer les sites Internet et applications mobiles des Entités autorisées.
+Pendant toute la durée pendant laquelle les Ressources sont accessibles sur le DSFR, les Utilisateurs de l’État peuvent les utiliser afin de concevoir et développer les sites Internet et applications mobiles des Entités autorisées.
 
-Le DSApitech étant évolutif, certains Composants peuvent être remplacés par des nouveaux régulièrement et les Entités Autorisées devront assurer la substitution requise par le SIG.
+Le DSFR étant évolutif, certains Composants peuvent être remplacés par des nouveaux régulièrement et les Entités Autorisées devront assurer la substitution requise par le SIG.
 
 Aux fins de garantir la cohérence, la qualité et l’harmonisation des sites et des applications mobiles des Entités Autorisées, il est précisé aux Utilisateurs de l’État qu’ils ne peuvent pas modifier les Éléments d’Identité, les Éléments d’Interface et Fondamentaux Techniques lors de leur utilisation pour leurs sites ou applications mobiles ; la Documentation spécifique propre à chaque Composant précise toutes les caractéristiques techniques à respecter.
 
-Dans le cas où les besoins fonctionnels des Utilisateurs de l’État ne sont pas couverts par les Ressources mises à disposition, les Utilisateurs de l’État peuvent construire de nouveaux composants à partir des Fondamentaux Techniques et des Éléments d’Identité, dans le respect des Composants déjà existants, de l’esprit et des principes de design du DSApitech afin de garantir sa cohérence.
+Dans le cas où les besoins fonctionnels des Utilisateurs de l’État ne sont pas couverts par les Ressources mises à disposition, les Utilisateurs de l’État peuvent construire de nouveaux composants à partir des Fondamentaux Techniques et des Éléments d’Identité, dans le respect des Composants déjà existants, de l’esprit et des principes de design du DSFR afin de garantir sa cohérence.
 
 Chaque nouveau site des Entités Autorisées ou refonte de ces sites fera l’objet d’une procédure d’agrément par le SIG selon les conditions de l’article 5.
 
@@ -108,13 +108,13 @@ Il est expressément rappelé aux Autres Utilisateurs que toute utilisation des 
 
 ### ARTICLE 3 - CONDITIONS SPÉCIFIQUES AUX CONTRIBUTIONS
 
-Dans l’hypothèse où un Utilisateur souhaiterait, dans le respect des limitations visées à l’article 2 ci-dessus, modifier un Composant ou apporter un nouveau Composant au DSApitech, il devra proposer au SIG sa Contribution, qui ne pourra être intégrée au catalogue des Composants du DSApitech qu’une fois validée par le SIG.
+Dans l’hypothèse où un Utilisateur souhaiterait, dans le respect des limitations visées à l’article 2 ci-dessus, modifier un Composant ou apporter un nouveau Composant au DSFR, il devra proposer au SIG sa Contribution, qui ne pourra être intégrée au catalogue des Composants du DSFR qu’une fois validée par le SIG.
 
-L’Utilisateur qui souhaite devenir Contributeur doit se rendre sur le Jira Service Desk (https://apitech.atlassian.net/servicedesk/customer/portals), sur le dépôt de code Git ou sur le Slack et remplir un formulaire afin de faire une demande d’évolution de design ou de codes sources ou proposer un nouveau Composant auprès du SIG.
+L’Utilisateur qui souhaite devenir Contributeur doit se rendre sur le Jira Service Desk (https://gouvfr.atlassian.net/servicedesk/customer/portals), sur le dépôt de code Git ou sur le Slack et remplir un formulaire afin de faire une demande d’évolution de design ou de codes sources ou proposer un nouveau Composant auprès du SIG.
 
 Le SIG entrera en contact avec l’Utilisateur pour l’informer du statut de sa demande.
 
-En fonction de la pertinence, de la qualité et de la cohérence de la Contribution avec le DSApitech, le SIG pourra accepter ou refuser la Contribution. L’acceptation par le SIG de chaque Contribution est conditionnée par la signature d’un certificat de garantie d’origine de l’Utilisateur Contributeur.
+En fonction de la pertinence, de la qualité et de la cohérence de la Contribution avec le DSFR, le SIG pourra accepter ou refuser la Contribution. L’acceptation par le SIG de chaque Contribution est conditionnée par la signature d’un certificat de garantie d’origine de l’Utilisateur Contributeur.
 
 Pour les Contributions développées par des agents de l’État pour le compte des Entités Autorisées, les droits de propriété intellectuelle y afférents appartiennent à l’État conformément aux dispositions de l’article L.131-3-1 du code de la propriété intellectuelle.
 
@@ -128,9 +128,9 @@ Pour les Contributions relatives aux Codes Sources, le fichier contributing.md s
 
 Il est précisé que la validation de la Contribution relative au Code Source s’effectue comme suit :
 
-Le Code Source développé ou modifié est soumis à l’équipe de développement du DSApitech pour analyse. Pour les modifications structurantes et le développement de nouveaux Composants, le processus de création devra suivre le fonctionnement de l’équipe du Système de Design d'Apitech :
+Le Code Source développé ou modifié est soumis à l’équipe de développement du DSFR pour analyse. Pour les modifications structurantes et le développement de nouveaux Composants, le processus de création devra suivre le fonctionnement de l’équipe du Système de Design de l’État :
 * Une phase de découverte UX qui a pour objectifs de cadrer le périmètre de développement
-* Une phase de design UI (échanges et partages possibles avec l’équipe DSApitech dès cette phase)
+* Une phase de design UI (échanges et partages possibles avec l’équipe DSFR dès cette phase)
 * Une phase de développement
 
 

@@ -328,7 +328,7 @@ const newPictogramHandler = async (argv) => {
     path: argv.path
   };
 
-  generateNewPictogram(settings.path || './src/dsapitech/core/asset/artwork');
+  generateNewPictogram(settings.path || './src/dsfr/core/asset/artwork');
 };
 
 yargs

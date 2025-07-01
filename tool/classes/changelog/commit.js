@@ -44,7 +44,7 @@ class Commit {
     const idsRegex = /DS-\d+/g;
     const ids = subject.match(idsRegex);
     if (Array.isArray(ids) && ids.length > 0) {
-      this._jira = ids.map(id => `[${id}](<https://apitech.atlassian.net/browse/${id}>)`).join(',');
+      this._jira = ids.map(id => `[${id}](<https://gouvfr.atlassian.net/browse/${id}>)`).join(',');
     }
 
     this._subject = gitmoji(subject.replace(regex, '').replace(/\[DS-[DS-\d, ]+]/g, '').trim());
@@ -52,7 +52,7 @@ class Commit {
     this._details = this._details.replace(/^#{1,6}\s/g, '').replace(/\n#{1,6}\s/g, '');
 
     switch (true) {
-      case this._subject.match(/chore.+DSApitech/) !== null:
+      case this._subject.match(/chore.+DSFR/) !== null:
       case this._subject.match(/chore.+changelog/) !== null:
       case this._subject.match(/chore.+incrémentation/) !== null:
       case this._subject.match(/chore.+incémentation/) !== null:

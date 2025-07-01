@@ -2,7 +2,7 @@ const fs = require('fs');
 const root = require('../utilities/root');
 const { createFile } = require('../utilities/file');
 
-const utilityColorDir = 'src/dsapitech/utility/colors';
+const utilityColorDir = 'src/dsfr/utility/colors';
 const moduleVariableDir = 'src/module/color/variable';
 
 const generateColors = async () => {

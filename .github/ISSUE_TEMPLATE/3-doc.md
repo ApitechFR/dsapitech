@@ -1,6 +1,6 @@
 ---
 name: Problème sur la documentation
-about: Rapporter une erreur ou proposer une suggestion pour améliorer la documentation du DSApitech.
+about: Rapporter une erreur ou proposer une suggestion pour améliorer la documentation du DSFR.
 title: ''
 labels: documentation
 assignees: ''

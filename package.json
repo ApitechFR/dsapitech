@@ -1,7 +1,10 @@
 {
-  "name": "@apitech/dsapitech",
-  "version": "1.13.2",
+  "name": "@apitechfr/dsapitech",
+  "version": "1.13.6",
   "description": "Système de Design d'Apitech - DSApitech",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "git@github.com:ApitechFR/dsapitech.git",
   "author": "Apitech <dev@apitech.fr>",
   "license": "SEE LICENSE IN LICENSE.md",
