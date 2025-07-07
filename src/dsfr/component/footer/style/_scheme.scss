@@ -7,7 +7,7 @@
 
 @mixin _footer-scheme($legacy: false) {
   #{ns(footer)} {
-    @include color.box-shadow((plain blue-france) (default grey), (legacy:$legacy), top-2-in bottom-1-in);
+    @include color.box-shadow((default grey), (legacy:$legacy), bottom-1-in);
 
     &__content-link {
       @include color.text(default grey, (legacy:$legacy));
@@ -23,6 +23,7 @@
 
     &__bottom {
       @include color.box-shadow(default grey, (legacy:$legacy), top-1-in);
+
       #{ns(btn)} {
         @include color.text(mention grey, (legacy:$legacy));
       }
@@ -56,6 +57,7 @@
 
       @if not $legacy {
         #{ns(footer__partners-link)} {
+
           &,
           &:hover,
           &:active {

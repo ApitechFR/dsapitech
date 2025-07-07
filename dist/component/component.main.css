@@ -10143,7 +10143,7 @@ a.fr-share__link:not([href]) {
   /**
   * Container des logos partenaires secondaires
   */
-  box-shadow: inset 0 2px 0 0 var(--border-plain-blue-france), inset 0 -1px 0 0 var(--border-default-grey);
+  box-shadow: inset 0 -1px 0 0 var(--border-default-grey);
 }
 
 .fr-footer__body {
@@ -10213,6 +10213,11 @@ a.fr-share__link:not([href]) {
 .fr-footer__logo {
   height: auto;
   max-height: 100%;
+}
+
+.fr-footer__logo__apitech {
+  max-height: 70px;
+  max-width: 300px;
 }
 
 /**
