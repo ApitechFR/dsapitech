@@ -4,14 +4,21 @@
 ////
 
 @use 'src/module/preference';
+@use 'src/module/color';
 
 #{ns(footer)} {
   @include disable-list-style;
   @include size(100%);
   @include padding-top(8v);
+  @include color.border(action-high blue-france, (legacy: false, side: 'top'), 3px solid #{color.$blue-france});
+
+
+
+
+
+
 
   @include preference.forced-colors {
-    border-top: 2px solid;
     @include padding-top(7.5v);
   }
 
