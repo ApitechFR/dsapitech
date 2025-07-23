@@ -113,11 +113,11 @@ Prenons un exemple : modification de la couleur du border dans le composant `foo
 
 Voici le composant `footer` aujourd'hui :
 
-![*Texte alternatif](/chemin/access/image.jpg "Titre de l'image*")
+![](https://github.com/ApitechFR/dsapitech/blob/main/readme%20Images/footer_old.png?raw=true "Composant Footer Aujourd'hui")
 
 Voici le composant `footer` de la maquette :
 
-![*Texte alternatif](/chemin/access/image.jpg "Titre de l'image*")
+![](https://github.com/ApitechFR/dsapitech/blob/main/readme%20Images/footer_model.png?raw=true "Maquete Composant Footer")
 
 Pour cet exemple, on se concentre sur l'ajout de la ligne bleue au dessus du footer.
 
@@ -163,7 +163,7 @@ border-top: 3px solid #000091;
 
 ##### C. Tester
 
-Après le build, si les projets ont bien été liés, le résultat est directement visible sur le projet test, et notre footer ressemble maintenant à ça : ![*Texte alternatif](/chemin/access/image.jpg "Titre de l'image*")
+Après le build, si les projets ont bien été liés, le résultat est directement visible sur le projet test, et notre footer ressemble maintenant à ça : ![](https://github.com/ApitechFR/dsapitech/blob/main/readme%20Images/footer_new.png?raw=true "Composant Footer Modifié")
 
 Donc on constate que le border a bien été ajouté en haut, et on peut maintenant publier sur `npm`.
 
