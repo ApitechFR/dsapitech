@@ -4,14 +4,21 @@
 ////
 
 @use 'src/module/preference';
+@use 'src/module/color';
 
 #{ns(footer)} {
   @include disable-list-style;
   @include size(100%);
   @include padding-top(8v);
+  @include color.border(action-high blue-france, (legacy: false, side: 'top'), 3px solid #{color.$blue-france});
+
+
+
+
+
+
 
   @include preference.forced-colors {
-    border-top: 2px solid;
     @include padding-top(7.5v);
   }
 
@@ -20,7 +27,7 @@
     @include margin-bottom(4v);
     @include margin-bottom(6v, md);
 
-    & + #{ns(footer__bottom)} {
+    &+#{ns(footer__bottom)} {
       @include margin-top(4v);
     }
   }
@@ -47,7 +54,7 @@
      * On prévoit que le logo soit encapsulé dans un <a>, ou bien directement en img ou en svg
      * (Eventuellement prévoir une classe pour pouvoir le mettre en background image)
      */
-    #{ns(logo)} + #{ns(footer__brand-link)} {
+    #{ns(logo)}+#{ns(footer__brand-link)} {
       @include margin-left(6v);
       @include margin-left(8v, md);
     }
@@ -70,4 +77,11 @@
     @include size(null, auto);
     max-height: 100%;
   }
+
+  &__logo__apitech {
+    max-height: 70px;
+    max-width: 200px;
+  }
+
+
 }

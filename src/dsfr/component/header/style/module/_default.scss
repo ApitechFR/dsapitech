@@ -24,8 +24,15 @@
 
   @include preference.forced-colors {
     outline: 1px solid;
+
     @include media-query.respond-from(lg) {
       outline: none;
     }
+  }
+
+
+  &__logo__apitech {
+    max-height: 70px;
+    max-width: 200px;
   }
 }

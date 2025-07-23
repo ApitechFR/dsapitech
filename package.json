@@ -1,6 +1,6 @@
 {
   "name": "@apitechfr/dsapitech",
-  "version": "1.13.6",
+  "version": "1.13.10",
   "description": "Système de Design d'Apitech - DSApitech",
   "publishConfig": {
     "access": "public"
