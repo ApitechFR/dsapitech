@@ -20,6 +20,7 @@
   "scripts": {
     "test": "node tool/tool.js test",
     "build": "node tool/tool.js build",
+    "postbuild": "cp dsapitech.css dist/dsapitech.css",
     "release": "node tool/tool.js release",
     "deploy": "node tool/tool.js deploy",
     "standalone": "node tool/tool.js standalone",
