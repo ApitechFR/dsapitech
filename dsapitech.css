@@ -62,3 +62,7 @@ body {
     font-family: 'Open Sans', sans-serif !important;
     border: #082954 1px solid;
 }
+
+.fr-header__brand-top {
+    padding: 1rem;
+}
