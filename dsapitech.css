@@ -66,3 +66,14 @@ body {
 .fr-header__brand-top {
     padding: 1rem;
 }
+
+.fr-footer {
+    border-top: 3px solid var(--background-action-high-blue-france) !important;
+}
+
+.fr-input{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.fr-input::placeholder{
+    font-family: 'Open Sans', sans-serif !important;
+}
