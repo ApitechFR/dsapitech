@@ -74,9 +74,11 @@ body {
 .fr-input{
     font-family: 'Open Sans', sans-serif !important;
 }
+
 .fr-input::placeholder{
     font-family: 'Open Sans', sans-serif !important;
 }
+
 .fr-toggle {
-    padding : 0 !important;
+    padding : 0px !important;
 }
