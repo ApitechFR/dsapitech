@@ -64,7 +64,7 @@ Pour `react-dsapitech`, voici les étapes pour publier sur `npm` :
   Depuis le dossier `dist`, entrer :
   
   ```bash
-  npm publish
+  npm publish --access public --//registry.npmjs.org/:_authToken=MON_TOKEN
   ```
   
   La publication se fait bien depuis le dossier créé par le build, et non depuis la racine du projet.
