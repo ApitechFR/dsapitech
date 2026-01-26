@@ -58,7 +58,7 @@ Pour `react-dsapitech`, voici les étapes pour publier sur `npm` :
 - **Publier :** Se déplacer dans le dossier `dist` créé lors du build :
   
   ```bash
-  cd build
+  cd dist
   ```
   
   Depuis le dossier `dist`, entrer :
