@@ -22,6 +22,8 @@ La librairie `react-dsapitech` a deux dépendances :
 ### `dsapitech`
 
 Pour publier une modification de la librairie `dsapitech` sur `npm`, il faut :
+  
+- **Mettre la version à jour :** Aller dans le fichier `package.json` et incrémenter la valeur de `version`.
 
 - **Build :** Aller à la racine du projet, ouvrir un **shell POSIX-compliant** et entrer :
   
@@ -30,8 +32,6 @@ Pour publier une modification de la librairie `dsapitech` sur `npm`, il faut :
   ```
   
   Le build est long, c'est normal.
-  
-- **Mettre la version à jour :** Aller dans le fichier `package.json` et incrémenter la valeur de `version`.
   
 - **Publier :** Toujours dans la racine du projet, entrer
   
@@ -44,6 +44,8 @@ Pour publier une modification de la librairie `dsapitech` sur `npm`, il faut :
 
 Pour `react-dsapitech`, voici les étapes pour publier sur `npm` :
 
+- **Mettre la version à jour :** Aller dans le fichier `dist/package.json` et incrémenter la valeur de `version`.
+
 - **Build :** Aller à la racine du projet, ouvrir un **shell POSIX-compliant** et entrer :
   
   ```bash
@@ -51,9 +53,6 @@ Pour `react-dsapitech`, voici les étapes pour publier sur `npm` :
   ```
   
   Le build crée un dossier `dist`.
-  
-- **Mettre la version à jour :** Aller dans le fichier `dist/package.json` et incrémenter la valeur de `version`.
-  
 
 - **Publier :** Se déplacer dans le dossier `dist` créé lors du build :
   
